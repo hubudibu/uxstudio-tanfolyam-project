@@ -115,13 +115,23 @@ h1 {
 }
 
 /* Menu */
+.hero {
+  padding: 56px 0 80px;
+}
 .menu {
   display: flex;
   margin: 0 -10px;
 }
 .menu-item {
-    margin: 0 10px;
+  margin: 0 20px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  padding: 5px 15px;
 }
 .logo {
   margin-right: auto;
+}
+.contact-button {
+  background-color: var(--dark-mint);
 }

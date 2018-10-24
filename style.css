@@ -154,6 +154,9 @@ h1 {
   bottom: 50px;
   color: var(--white);
   font-size: 14px;
+  text-decoration: none;
+  border-bottom: 2px solid;
+  padding-bottom: 6px;
 }
 
 .card h2 {

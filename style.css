@@ -190,4 +190,9 @@ h1 {
 
 .grid-card {
   background-color: var(--dark-mint);
+  padding: 25px;
+}
+
+.grid-card:nth-child(2n) {
+  background-color: var(--blue-purple);
 }

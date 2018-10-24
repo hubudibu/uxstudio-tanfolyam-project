@@ -196,3 +196,20 @@ h1 {
 .grid-card:nth-child(2n) {
   background-color: var(--blue-purple);
 }
+
+
+/* Book Grid */
+.book-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 48px;
+}
+
+.book-grid img {
+  grid-row: 1 / span 2;
+}
+
+.book-grid a {
+  align-self: end;
+}
